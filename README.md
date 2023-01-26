@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FourthBrain-MLE11-NasimAlamdari
 =======
 
