@@ -4,6 +4,12 @@ import plotly.figure_factory as ff
 import streamlit as st
 import streamlit.components.v1 as components
 
+#import webbrowser
+#webbrowser.open('http://streamlit.io')
+
+#import platform
+#platform.system()
+
 # Display Wal-Mart Labs logo.
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Walmart_Labs_logo.svg/1024px-Walmart_Labs_logo.svg.png" )
 
