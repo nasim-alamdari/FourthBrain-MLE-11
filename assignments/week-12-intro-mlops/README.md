@@ -417,9 +417,10 @@ Let's just output the forecast in JSON. Comment out the following lines in `pred
     tmux new -s stock_session
     ```
     If you skip this step, the app will be closed after you exit the ssh session.
-10. Navigate to the same directory where `main.py` is (e.g., repo root directory or `src`) and run the app
+10. Navigate to the same directory where `main.py` is (e.g., repo root directory or `src`) and run model.py and then, the app
 
     ```
+    python model.py
     uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8000
     ```
 
