@@ -395,6 +395,7 @@ Let's just output the forecast in JSON. Comment out the following lines in `pred
     ```
     sudo yum update -y 
     sudo yum install git -y  # install git
+    sudo yum install docker -y # install docker
 
     # install tmux to switch easily between programs in one terminal
     sudo yum install tmux
