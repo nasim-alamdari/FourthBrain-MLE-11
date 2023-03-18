@@ -411,7 +411,12 @@ Let's just output the forecast in JSON. Comment out the following lines in `pred
     git clone https://github.com/[YOUR HANDLER]/stock-predictor.git
     cd stock-predictor
     pip install -U pip
-    pip install -r requirements.txt
+    pip install -r requirements.txt # or use docker similar to below:
+    ```
+    
+    ```
+    sudo systemctl start docker # or "sudo usermod -aG docker $USER  "
+    
     ```
 9. Before launching the app, we can avoid ssh time out using `tmux` to create a new session. 
     ```
